@@ -38,7 +38,7 @@ if(browserName.equals("chrome"))
 else if (browserName.equals("firefox"))
 {
 	 driver= new FirefoxDriver();
-	//firefox code
+	//sdfsvds
 }
 else if (browserName.equals("IE"))
 {
@@ -47,8 +47,6 @@ else if (browserName.equals("IE"))
 
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 return driver;
-
-
 }
 
 public void getScreenshot(String result) throws IOException
@@ -57,6 +55,5 @@ public void getScreenshot(String result) throws IOException
 	FileUtils.copyFile(src, new File("C://test//"+result+"screenshot.png"));
 	
 }
-
 
 }
