@@ -38,7 +38,7 @@ if(browserName.equals("chrome"))
 else if (browserName.equals("firefox"))
 {
 	 driver= new FirefoxDriver();
-	//sdfsvds
+	//Firefox use
 }
 else if (browserName.equals("IE"))
 {
